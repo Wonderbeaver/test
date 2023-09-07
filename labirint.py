@@ -173,7 +173,9 @@ def restart():
 
 
 mixer.music.load('Beats of Water Drops.mp3')
+mixer.music.set_volume(0.2)
 mixer.music.play()
+
 
 kick = mixer.Sound('kick.ogg')
 money = mixer.Sound('money.ogg')
